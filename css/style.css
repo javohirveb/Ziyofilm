@@ -90,6 +90,11 @@ h1 {
     font-family: 'Rubik', sans-serif;
 }
 
+.header__poster-item p a {
+    color: rgb(30, 173, 212);
+    text-shadow: 0 0 1px rgb(188, 228, 232);
+}
+
 footer {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -124,6 +129,16 @@ footer {
 .footer__social-item:nth-child(3) a i {
     color: rgb(190, 44, 44);
     text-shadow: 0 0 15px rgb(190, 44, 44);
+}
+
+.footer__bottom {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer__bottom p, .footer__bottom p a {
+    color: rgb(188, 228, 232);
+    font-family: 'Alkalami', serif;
 }
 
 @media only screen and (max-width: 997px) {
