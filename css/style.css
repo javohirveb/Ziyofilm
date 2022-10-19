@@ -116,6 +116,10 @@ footer {
     transform: scale(2.5);
 }
 
+.footer__social-item:nth-child(1):hover a i, .footer__social-item:nth-child(2):hover a i, .footer__social-item:nth-child(3):hover a i{
+    text-shadow: none;
+}
+
 .footer__social-item:nth-child(1) a i {
     color: #389CE9;
     text-shadow: 0 0 15px #389CE9;
@@ -167,7 +171,7 @@ footer {
 @media only screen and (max-width: 567px) {
 
     .header__poster-item {
-        width: 80%;
+        width: 90%;
     }
 
 }
